@@ -1,0 +1,41 @@
+{
+	"manifest_version": 2,
+	"name": "Readable for BlaBlaCar",
+	"version": "1.0.0",
+	"description": "Adds a filter which removes the new font from the BlaBlaCar website.",
+	"icons": {
+		"48": "icon-48.png",
+		"96": "icon-96.png"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"*://*.blablacar.com/*",
+				"*://*.blablacar.de/*",
+				"*://*.blablacar.net/*",
+				"*://*.blablacar.at/*",
+				"*://*.blablacar.ch/*",
+				"*://*.blablacar.it/*",
+				"*://*.blablacar.fr/*",
+				"*://*.blablacar.uk/*",
+				"*://*.blablacar.co.uk/*",
+				"*://*.blablacar.nl/*",
+				"*://*.blablacar.cz/*",
+				"*://*.blablacar.pl/*",
+				"*://*.blablacar.es/*",
+				"*://*.blablacar.be/*",
+				"*://*.blablacar.hu/*",
+				"*://*.blablacar.pt/*",
+				"*://*.blablacar.ro/*"
+			],
+			"js": [
+				"readable-for-blablacar.js"
+			]
+		}
+	],
+	"applications": {
+		"gecko": {
+			"id": "readable-for-blablacar@devattendant.de"
+		}
+	}
+}
