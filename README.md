@@ -4,6 +4,10 @@ With launch of the "new" BlaBlaCar the designers marginally modified the design 
 
 The addon is created for Firefox and was tested on v57.0.2 on Windows.
 
+## Screenshot
+
+![Alt text](/resources/screenshot_modified.png?raw=true "View with installed add-on")
+
 ## Authors
 
 See the list of [contributors](https://github.com/devattendant/readable-for-blablacar/contributors) who participated in this project.
